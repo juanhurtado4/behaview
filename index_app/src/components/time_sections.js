@@ -1,6 +1,10 @@
 import React from 'react';
 
 const getTimeFilters = () => {
+    /*
+    Helper function creates an array of TimeFilter components
+    Returns array
+    */
     let minutes = 12;
     let questions = 2;
     const timeFilters = [];
