@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 class Site extends Component {
     render() {
         return (
-            <Header />
-            <Profiles />
+            <div className="site">
+                <Header />
+                <Profiles />
+            </div>
         )
     }
 }
