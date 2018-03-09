@@ -32,8 +32,7 @@ const TimeFilter = (props) => {
 };
 
 const TimeSections = (props) => {
-    // Create the time filter options for the submenu
-    const timeFilters = getTimeFilters(); 
+    const timeFilters = getTimeFilters(); // Create filter options for submenu
 
     return (
         <ul>
@@ -42,3 +41,5 @@ const TimeSections = (props) => {
         </ul>
     )
 };
+
+export default TimeSections;
