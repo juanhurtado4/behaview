@@ -4,6 +4,7 @@ class Site extends Component {
     render() {
         return (
             <Header />
+            <Profiles />
         )
     }
 }
