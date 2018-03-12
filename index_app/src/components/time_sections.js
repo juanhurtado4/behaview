@@ -16,8 +16,8 @@ const getTimeFilters = () => {
                 quest={questions}
             />
         )
-        questions += 12;
-        minutes += 2;
+        questions += 2;
+        minutes += 12;
     }
     return timeFilters
 };
