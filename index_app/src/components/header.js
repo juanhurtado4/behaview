@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Filter from './filter';
 
 const NavBar = (props) => {
     return (
         <nav>
             <ul>
-                {/* <Filter /> */}
+                <Filter />
             </ul>
         </nav>
     )
