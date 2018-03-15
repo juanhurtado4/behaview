@@ -13,9 +13,13 @@ const NavBar = (props) => {
 
 class Header extends Component {
     render() {
+        const imgUrl = "http://fakeimg.pl/157x80/?text=Behaview&font=lobster"
         return (
             <header>
-                <h1>Behaview</h1>
+                <img 
+                src={imgUrl}
+                alt="Logo"
+                />
                 <NavBar />
             </header>
         )
