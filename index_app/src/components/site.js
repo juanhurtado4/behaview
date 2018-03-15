@@ -7,6 +7,7 @@ class Site extends Component {
             <div className="site">
                 <Header />
                 {/* <Profiles /> */}
+                <main>Profiles</main>
             </div>
         )
     }
