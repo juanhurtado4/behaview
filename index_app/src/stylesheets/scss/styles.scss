@@ -14,5 +14,9 @@ header {
 .filter {
     ul {
         position: absolute;
+        visibility: hidden;
+    }
+    &:hover ul {
+        visibility: visible;
     }
 }

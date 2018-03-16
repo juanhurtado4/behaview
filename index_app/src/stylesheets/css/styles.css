@@ -126,6 +126,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* End CSS reset */
 .site {
   display: grid;
   grid-template-columns: repeat(12, 1fr); }
@@ -137,6 +138,9 @@ header {
   align-items: center; }
 
 .filter ul {
-  position: absolute; }
+  position: absolute;
+  visibility: hidden; }
+.filter:hover ul {
+  visibility: visible; }
 
 /*# sourceMappingURL=styles.css.map */
