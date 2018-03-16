@@ -16,7 +16,7 @@ class Header extends Component {
         return (
             <header>
                 <a href="/">
-                    <i className="fas fa-bold"></i>
+                    <i className="fas fa-bold fa-lg"></i>
                 </a>
                 <NavBar />
             </header>
