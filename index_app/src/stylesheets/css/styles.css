@@ -129,10 +129,14 @@ table {
 .site {
   display: grid;
   grid-template-columns: repeat(12, 1fr); }
-  .site header {
-    grid-column: 1 / 13;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
+
+header {
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.filter ul {
+  position: absolute; }
 
 /*# sourceMappingURL=styles.css.map */
