@@ -35,7 +35,7 @@ const TimeSections = (props) => {
     const timeFilters = getTimeFilters(); // Create filter options for submenu
 
     return (
-        <ul>
+        <ul className="sub-menu-parent">
             { timeFilters }
             <li className="sub-menu-all">Show all</li>
         </ul>

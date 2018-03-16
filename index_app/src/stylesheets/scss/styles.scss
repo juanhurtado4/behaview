@@ -12,17 +12,26 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    >i {
+    >a {
         padding: 1em;
     }
 }
 
 .filter {
-    ul {
+    cursor: pointer;
+    .sub-menu-parent {
         position: absolute;
         visibility: hidden;
+        background-color: lighten($grey, 10%);
+        padding: 1em;
+    }
+    &:hover>i {
+        color: grey;
     }
     &:hover ul {
         visibility: visible;
+    }
+    li {
+        margin: 1em;
     }
 }

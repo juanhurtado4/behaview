@@ -138,13 +138,21 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-  header > i {
+  header > a {
     padding: 1em; }
 
-.filter ul {
-  position: absolute;
-  visibility: hidden; }
-.filter:hover ul {
-  visibility: visible; }
+.filter {
+  cursor: pointer; }
+  .filter .sub-menu-parent {
+    position: absolute;
+    visibility: hidden;
+    background-color: #b7b7b7;
+    padding: 1em; }
+  .filter:hover > i {
+    color: grey; }
+  .filter:hover ul {
+    visibility: visible; }
+  .filter li {
+    margin: 1em; }
 
 /*# sourceMappingURL=styles.css.map */
