@@ -3,14 +3,18 @@
 .site {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: $grey;
+    background-color: darken($grey, 15%);
 }
 
 header {
+    background-color: lighten($grey, 10%);
     grid-column: 1 / 13;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    >i {
+        padding: 1em;
+    }
 }
 
 .filter {

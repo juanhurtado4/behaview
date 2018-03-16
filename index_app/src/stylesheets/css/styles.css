@@ -130,13 +130,16 @@ table {
 .site {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background-color: #9D9D9E; }
+  background-color: #777778; }
 
 header {
+  background-color: #b7b7b7;
   grid-column: 1 / 13;
   display: flex;
   justify-content: space-around;
   align-items: center; }
+  header > i {
+    padding: 1em; }
 
 .filter ul {
   position: absolute;
