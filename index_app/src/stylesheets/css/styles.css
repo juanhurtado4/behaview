@@ -129,7 +129,8 @@ table {
 /* End CSS reset */
 .site {
   display: grid;
-  grid-template-columns: repeat(12, 1fr); }
+  grid-template-columns: repeat(12, 1fr);
+  background-color: #9D9D9E; }
 
 header {
   grid-column: 1 / 13;

@@ -1,7 +1,9 @@
 @import '_reset.scss';
+@import '_vars.scss';
 .site {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    background-color: $grey;
 }
 
 header {
