@@ -4,7 +4,7 @@ import TimeSections from './time_sections';
 const Filter = () => {
     return (
         <li className="filter">
-            <span>Filter</span>
+            <i class="fas fa-filter">Filter</i>
             <TimeSections />
         </li>
     )
