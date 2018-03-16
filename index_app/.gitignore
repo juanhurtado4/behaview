@@ -20,3 +20,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 misc_files
+src/stylesheets/.sass-cache/
+src/stylesheets/css/styles.css.map
