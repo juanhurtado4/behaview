@@ -25,8 +25,8 @@ const getTimeFilters = () => {
 const TimeFilter = (props) => {
     return (
         <li>
-            <h1>{props.time} min</h1>
-            <p>{props.quest} questions each</p>
+            <h1 className="sub-menu-title">{props.time} min</h1>
+            <p className="sub-menu-para">{props.quest} questions each</p>
         </li>
     )
 };
@@ -37,7 +37,7 @@ const TimeSections = (props) => {
     return (
         <ul>
             { timeFilters }
-            <li>Show all</li>
+            <li className="sub-menu-all">Show all</li>
         </ul>
     )
 };
