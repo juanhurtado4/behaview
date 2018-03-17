@@ -130,7 +130,8 @@ table {
 .site {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background-color: #777778; }
+  background-color: #777778;
+  color: #333; }
 
 header {
   background-color: #b7b7b7;
@@ -140,19 +141,34 @@ header {
   align-items: center; }
   header > a {
     padding: 1em; }
+  header > a:visited {
+    color: #333; }
 
 .filter {
   cursor: pointer; }
-  .filter .sub-menu-parent {
-    position: absolute;
-    visibility: hidden;
-    background-color: #b7b7b7;
-    padding: 1em; }
+  .filter i {
+    font-size: 20px; }
   .filter:hover > i {
     color: grey; }
-  .filter:hover ul {
+  .filter:hover .sub-menu-parent {
     visibility: visible; }
-  .filter li {
-    margin: 1em; }
+
+.sub-menu-parent {
+  position: absolute;
+  visibility: hidden;
+  background-color: #b7b7b7; }
+  .sub-menu-parent .time-section,
+  .sub-menu-parent .sub-menu-all {
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px; }
+    .sub-menu-parent .time-section:hover,
+    .sub-menu-parent .sub-menu-all:hover {
+      background-color: #838385; }
+
+.sub-menu-para {
+  font-size: 14px;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
