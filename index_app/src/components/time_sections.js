@@ -24,9 +24,9 @@ const getTimeFilters = () => {
 
 const TimeFilter = (props) => {
     return (
-        <li>
+        <li className="time-section">
             <h1 className="sub-menu-title">{props.time} min</h1>
-            <p className="sub-menu-para">{props.quest} questions each</p>
+            <p className="sub-menu-para">{props.quest} questions</p>
         </li>
     )
 };
