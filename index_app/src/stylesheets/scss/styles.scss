@@ -1,0 +1,56 @@
+@import '_reset.scss';
+@import '_vars.scss';
+.site {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: darken($grey, 15%);
+    color: #333;
+}
+
+header {
+    background-color: lighten($grey, 10%);
+    grid-column: 1 / 13;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    >a {
+        padding: 1em;
+    }
+    >a:visited {
+        color: #333;
+    }
+}
+
+.filter {
+    cursor: pointer;
+    i {
+        font-size: 20px;
+    }
+    &:hover>i {
+        color: grey;
+    }
+    &:hover .sub-menu-parent {
+        visibility: visible;
+    }
+}
+
+.sub-menu-parent {
+    position: absolute;
+    visibility: hidden;
+    background-color: lighten($grey, 10%);
+    .time-section,
+    .sub-menu-all {
+        padding: 1em;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 22px;
+        &:hover {
+            background-color: darken($grey, 10%);
+        }
+    }
+}
+
+.sub-menu-para {
+    font-size: 14px;
+    margin-top: 10px;
+}

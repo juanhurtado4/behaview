@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Header from './header';
 
 class Site extends Component {
     render() {
         return (
-            <Header />
-            <Profiles />
+            <div className="site">
+                <Header />
+                {/* <Profiles /> */}
+                <main>Profiles</main>
+            </div>
         )
     }
 }
